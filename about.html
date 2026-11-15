@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>撮影スタイルについて</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: clamp(24px, 6vw, 72px) 20px;
+      background: #f6f6f4;
+      color: #222728;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+      line-height: 1.9;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(28px, 6vw, 56px);
+      background: #ffffff;
+      border: 1px solid #e8e8e4;
+      border-radius: 18px;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, .035);
+    }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: #777e7d;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .13em;
+    }
+    h1 {
+      margin: 0 0 30px;
+      font-size: clamp(1.55rem, 4vw, 2rem);
+      line-height: 1.45;
+      letter-spacing: .02em;
+    }
+    .divider { height: 1px; background: #e6e8e7; margin-bottom: 32px; }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.08rem;
+      line-height: 1.5;
+      letter-spacing: .02em;
+    }
+    p { margin: 0; font-size: 1rem; }
+    section + section { margin-top: 36px; }
+    .highlight {
+      margin-top: 26px;
+      border-left: 4px solid #536a65;
+      background: #f5f8f7;
+      border-radius: 0 10px 10px 0;
+      padding: 18px 20px;
+    }
+    .highlight p { font-weight: 600; }
+    .note {
+      border-top: 1px solid #e6e8e7;
+      padding-top: 28px;
+    }
+    @media (max-width: 480px) {
+      main { border-radius: 14px; }
+      .highlight { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">PHOTOGRAPHY STYLE</p>
+    <h1>撮影スタイルについて</h1>
+    <div class="divider" aria-hidden="true"></div>
+
+    <section aria-labelledby="style-heading">
+      <h2 id="style-heading">私の撮影について</h2>
+      <p>私の撮影は、基本的にお任せスタイルです。被写体やロケーションの魅力を自分なりに見つけ、構図や光を考えながら撮影しています。</p>
+      <div class="highlight">
+        <p>私の写真の雰囲気を気に入ってくださり、撮影をある程度お任せいただける方との相性が良いです。</p>
+      </div>
+    </section>
+
+    <section class="note" aria-labelledby="request-heading">
+      <h2 id="request-heading">撮影をご検討の方へ</h2>
+      <p>ご自身の頭の中にあるイメージの忠実な再現や、細かなご要望への対応を重視される場合は、他の方に依頼することをお勧めします。</p>
+    </section>
+  </main>
+</body>
+</html>
